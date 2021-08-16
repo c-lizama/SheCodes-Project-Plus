@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.search-bar {
+  margin-top: 1em;
+  text-align: center;
+  border-radius: 30px;
+  border-width: thin;
+  border-color: #b9bbbc;
+}
+.submit-button {
+  border-radius: 3px;
+  text-align: center;
+  border-width: thin;
+  background-color: #edf4fa;
+  border-color: #b9bbbc;
+}
+.button {
+  border-radius: 3px;
+  text-align: center;
+  border-width: thin;
+  background-color: #edf4fa;
+  color: #41424d;
+  border-color: #b9bbbc;
+}
+
+h1 {
+  text-align: left;
+  font-size: 32px;
+  color: #41424d;
+}
+h2 {
+  font-size: 20px;
+  font-style: italic;
+  color: #b9bbbc;
+}
+h3 {
+  text-align: center;
+  font-size: 150px;
+}
+.current-weather {
+  list-style: none;
+  text-align: center;
+  font-size: 28px;
+  color: #41424d;
+}
+.current-weather-temp {
+  color: #3548ba;
+  font-weight: bold;
+  font-size: 40px;
+}
+.description {
+  text-transform: capitalize;
+}
+
+.hourly {
+  background-color: #3548ba;
+  color: white;
+  border-radius: 30px;
+  border: solid 2px #b9bbbc;
+}
+.next {
+  background-color: white;
+  color: #b9bbbc;
+  border-radius: 30px;
+  border: solid 2px #b9bbbc;
+}
+.row {
+  background-color: #edf4fa;
+  border-radius: 30px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.weather-time {
+  font-size: 22px;
+  color: #41424d;
+}
+.weather-temp {
+  font-size: 22px;
+  color: #3548ba;
+}
